@@ -108,8 +108,8 @@ export const CopilotProvider = ({
           step?.wrapperRef.current?.measureLayout(
             nodeHandle,
             (_x, y, _w, h) => {
-              const yOffset = y > 0 ? y - h / 2 : 0;
-              scrollView.scrollTo({ y: yOffset, animated: false });
+              const yOffset = y > 0 ? y - h / 3 : 0;
+              scrollView.scrollToOffset({ offset: yOffset, animated: true });
             }
           );
         }
@@ -121,7 +121,7 @@ export const CopilotProvider = ({
             void moveModalToStep(step);
           }
         },
-        scrollView != null ? 100 : 0
+        scrollView != null ? 500 : 0
       );
     },
     [copilotEvents, moveModalToStep, scrollView, setCurrentStepState]
