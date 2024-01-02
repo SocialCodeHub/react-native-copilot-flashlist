@@ -1,6 +1,6 @@
 {
   "name": "react-native-copilot-flashlist",
-  "version": "1.0.0.",
+  "version": "1.0.0",
   "description": "Step by step tour guide for you react-native app. Works with shopify flashlist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
