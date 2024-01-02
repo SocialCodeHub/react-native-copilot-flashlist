@@ -1,7 +1,7 @@
 {
-  "name": "react-native-copilot",
-  "version": "3.2.1",
-  "description": "Make an interactive step by step tour guide for you react-native app",
+  "name": "react-native-copilot-flashlist",
+  "version": "1.0.0.",
+  "description": "Step by step tour guide for you react-native app. Works with shopify flashlist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -16,25 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohebifar/react-native-copilot.git"
+    "url": "git+https://github.com/SocialCodeHub/react-native-copilot-flashlist.git"
   },
   "keywords": [
     "react-native",
-    "react-native-joyride",
     "react",
-    "copilot",
     "intro.js",
-    "intro"
+    "intro",
+    "shopify-flashlist-walkthrough"
   ],
   "files": [
     "dist"
   ],
-  "author": "Mohamad Mohebifar <mohamad@mohebifar.com>",
+  "author": "Ashwani",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mohebifar/react-native-copilot/issues"
-  },
-  "homepage": "https://github.com/mohebifar/react-native-copilot#readme",
+  "homepage": "https://github.com/SocialCodeHub/react-native-copilot-flashlist",
   "devDependencies": {
     "@testing-library/jest-native": "^5.4.2",
     "@testing-library/react-native": "^12.0.0",

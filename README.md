@@ -1,4 +1,4 @@
-<h1 align="center">React Native Copilot</h1>
+<h1 align="center">React Native Copilot Flashlist</h1>
 
 <div align="center">
   <p align="center">
@@ -31,11 +31,11 @@
 ## Installation
 
 ```
-yarn add react-native-copilot
+yarn add react-native-copilot-flashlist
 
 # or with npm:
 
-npm install --save react-native-copilot
+npm install --save react-native-copilot-flashlist
 ```
 
 **Optional**: If you want to have the smooth SVG animation, you should install and link [`react-native-svg`](https://github.com/software-mansion/react-native-svg).
