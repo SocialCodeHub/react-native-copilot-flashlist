@@ -109,6 +109,7 @@ export const CopilotProvider = ({
             nodeHandle,
             (_x, y, _w, h) => {
               const yOffset = y > 0 ? y - h / 3 : 0;
+              // @ts-ignore
               scrollView.scrollToOffset({ offset: yOffset, animated: true });
             }
           );
