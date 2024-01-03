@@ -334,7 +334,7 @@ export const CopilotModal = forwardRef<CopilotModalHandle, Props>(
       }
       return (
         <>
-          <Animated.View
+          {/* <Animated.View
             key="stepNumber"
             style={[
               styles.stepNumberContainer,
@@ -345,7 +345,7 @@ export const CopilotModal = forwardRef<CopilotModalHandle, Props>(
             ]}
           >
             <StepNumberComponent />
-          </Animated.View>
+          </Animated.View> */}
 
           {!!arrowSize && (
             <Animated.View key="arrow" style={[styles.arrow, arrowStyles]} />
