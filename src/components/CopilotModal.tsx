@@ -58,7 +58,7 @@ export const CopilotModal = forwardRef<CopilotModalHandle, Props>(
         : "view",
       animated = typeof NativeModules.RNSVGSvgViewManager !== "undefined",
       androidStatusBarVisible = false,
-      backdropColor = "rgba(0, 0, 0, 0.4)",
+      backdropColor = "rgba(0, 0, 0, 0.7)",
       labels = {
         finish: "Finish",
         next: "Next",
@@ -67,7 +67,7 @@ export const CopilotModal = forwardRef<CopilotModalHandle, Props>(
       },
       svgMaskPath,
       stopOnOutsideClick = false,
-      arrowColor = "#fff",
+      arrowColor = "#04A777",
       arrowSize = ARROW_SIZE,
       margin = MARGIN
     },

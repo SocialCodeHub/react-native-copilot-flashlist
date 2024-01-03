@@ -108,7 +108,7 @@ export const CopilotProvider = ({
           step?.wrapperRef.current?.measureLayout(
             nodeHandle,
             (_x, y, _w, h) => {
-              const yOffset = y > 0 ? y - h / 3 : 0;
+              const yOffset = y > 0 ? y - h / 1.5 : 0;
               // @ts-ignore
               scrollView.scrollToOffset({ offset: yOffset, animated: true });
             }

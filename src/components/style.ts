@@ -5,7 +5,7 @@ export const STEP_NUMBER_DIAMETER: number = STEP_NUMBER_RADIUS * 2;
 export const ZINDEX: number = 100;
 export const MARGIN: number = 13;
 export const OFFSET_WIDTH: number = 4;
-export const ARROW_SIZE: number = 6;
+export const ARROW_SIZE: number = 8;
 
 export const styles = StyleSheet.create({
   container: {
@@ -25,11 +25,13 @@ export const styles = StyleSheet.create({
     position: "absolute",
     paddingTop: 15,
     paddingHorizontal: 15,
-    backgroundColor: "#fff",
-    borderRadius: 3,
+    backgroundColor: "#04A777",
+    borderRadius: 8,
     overflow: "hidden",
   },
-  tooltipText: {},
+  tooltipText: {
+    color: "#fff"
+  },
   tooltipContainer: {
     flex: 1,
   },
