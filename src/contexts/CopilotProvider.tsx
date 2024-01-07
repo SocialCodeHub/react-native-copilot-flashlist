@@ -99,9 +99,7 @@ export const CopilotProvider = ({
 
   const setCurrentStep = useCallback(
     async (step?: Step, move: boolean = true) => {
-      setCurrentStepState(step);
       copilotEvents.emit("stepChange", step);
-
       if (scrollView != null) {
         const nodeHandle = findNodeHandle(scrollView);
         if (nodeHandle) {
@@ -119,6 +117,7 @@ export const CopilotProvider = ({
       setTimeout(
         () => {
           if (move && step) {
+            setCurrentStepState(step);
             void moveModalToStep(step);
           }
         },
